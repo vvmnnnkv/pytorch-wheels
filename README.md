@@ -1,7 +1,7 @@
 # Compile PyTorch for ARM architecture
 
 Docker has wonderful [buildx plugin](https://docs.docker.com/buildx/working-with-buildx/) 
-can tobuild images for multiple platforms using QEMU emulator.
+that can build images for multiple platforms using QEMU emulator.
 
 Provided `Dockerfile` can be used to build PyTorch 1.4.1 and Torchvision 0.5.0 for Raspberri Pi on a x64 machine.
 It builds for ARMv7 (32-bit) but in theory can be extended to other architectures supported by buildx.
